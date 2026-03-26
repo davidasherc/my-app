@@ -1,0 +1,346 @@
+🟢🟢🟢 BUTTON CLICKED! {planId: 'premium', planName: 'Premium'}
+code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:90 🚨🚨🚨 HANDLE SUBSCRIBE CALLED! 🚨🚨🚨 {planId: 'premium'}
+code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:90 🚨 USER OBJECT: {id: '2', email: 'basic@test.com', firstName: 'Basic', lastName: 'User', subscriptionStatus: 'trial', …}
+code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:90 🚨 USER EMAIL: basic@test.com
+code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:90 🚨 USER SUBSCRIPTION PLAN: basic
+code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:90 🚨 USER SUBSCRIPTION STATUS: trial
+code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:90 💳 Creating checkout session for plan: premium billing: monthly
+code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:90 🔵 getPriceId called with: {plan: 'premium', cycle: 'monthly'}
+code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:90 🔵 Available STRIPE_PRICES: {premium_monthly: 'price_1TCnzlCFfBfnCkpSxCpnMc7j', premium_yearly: 'price_1TCoBSCFfBfnCkpS1CVgTisN', family_monthly: 'price_1TCoKRCFfBfnCkpSc2ivHWSE', family_yearly: 'price_1TCoOZCFfBfnCkpSTotHkzsI'}
+code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:90 🔵 Looking for key: premium_monthly
+code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:90 🔵 Found priceId: price_1TCnzlCFfBfnCkpSxCpnMc7j
+code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:90 💳 Price ID: price_1TCnzlCFfBfnCkpSxCpnMc7j
+code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:90 💳 Calling createCheckoutSession...
+code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:90 🔥🔥🔥🔥🔥 SUBSCRIPTION MANAGER LOADED! USER: {id: '2', email: 'basic@test.com', firstName: 'Basic', lastName: 'User', subscriptionStatus: 'trial', …}
+code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:90 🚨🚨🚨 SUBSCRIPTION MANAGER VERSION: 2024-03-25-FINAL-FIX 🚨🚨🚨
+code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:90 🚨🚨🚨 TIMESTAMP: 2026-03-25T02:57:58.528Z 🚨🚨🚨
+stripe.ts:48  POST https://pyixvaanmebwlxsivlue.supabase.co/functions/v1/make-server-2538a5b0/create-checkout-session 401 (Unauthorized)
+createCheckoutSession @ stripe.ts:48
+handleSubscribe @ SubscriptionManager.tsx:143
+onClick @ SubscriptionManager.tsx:452
+y @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25
+ik @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25
+iz @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25
+i$ @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25
+dP @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:37
+dM @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:37
+dG @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:37
+dk @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:37
+(anonymous) @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:37
+SR @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:37
+iR @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25
+dj @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:37
+lO @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25
+lN @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25
+lv @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25Understand this error
+code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:17 ❌ Server returned error: {code: 401, message: 'Invalid Token or Protected Header formatting'}
+r @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:17
+error @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:90
+createCheckoutSession @ stripe.ts:69
+await in createCheckoutSession
+handleSubscribe @ SubscriptionManager.tsx:143
+onClick @ SubscriptionManager.tsx:452
+y @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25
+ik @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25
+iz @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25
+i$ @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25
+dP @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:37
+dM @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:37
+dG @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:37
+dk @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:37
+(anonymous) @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:37
+SR @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:37
+iR @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25
+dj @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:37
+lO @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25
+lN @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25
+lv @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25Understand this error
+code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:17 ❌ Error creating checkout session: Error: Failed to create checkout session
+    at createCheckoutSession (stripe.ts:70:13)
+    at async handleSubscribe (SubscriptionManager.tsx:143:34)
+r @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:17
+error @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:90
+createCheckoutSession @ stripe.ts:77
+await in createCheckoutSession
+handleSubscribe @ SubscriptionManager.tsx:143
+onClick @ SubscriptionManager.tsx:452
+y @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25
+ik @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25
+iz @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25
+i$ @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25
+dP @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:37
+dM @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:37
+dG @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:37
+dk @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:37
+(anonymous) @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:37
+SR @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:37
+iR @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25
+dj @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:37
+lO @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25
+lN @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25
+lv @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25Understand this error
+code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:17 ❌ Subscription error: Error: Failed to create checkout session
+    at createCheckoutSession (stripe.ts:70:13)
+    at async handleSubscribe (SubscriptionManager.tsx:143:34)
+r @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:17
+error @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:90
+handleSubscribe @ SubscriptionManager.tsx:153
+await in handleSubscribe
+onClick @ SubscriptionManager.tsx:452
+y @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25
+ik @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25
+iz @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25
+i$ @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25
+dP @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:37
+dM @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:37
+dG @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:37
+dk @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:37
+(anonymous) @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:37
+SR @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:37
+iR @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25
+dj @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:37
+lO @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25
+lN @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25
+lv @ code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:25Understand this error
+code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:90 🔥🔥🔥🔥🔥 SUBSCRIPTION MANAGER LOADED! USER: {id: '2', email: 'basic@test.com', firstName: 'Basic', lastName: 'User', subscriptionStatus: 'trial', …}
+code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:90 🚨🚨🚨 SUBSCRIPTION MANAGER VERSION: 2024-03-25-FINAL-FIX 🚨🚨🚨
+code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:90 🚨🚨🚨 TIMESTAMP: 2026-03-25T02:57:58.722Z 🚨🚨🚨
+vendor-core-83c17265f2588e9e.min.js.br:63  GET https://www.figma.com/api/integrations/supabase/mcCNDiTaKlvI1VITobnJ7o/edge_functions/make-server/logs 429 (Too Many Requests)
+(anonymous) @ vendor-core-83c17265f2588e9e.min.js.br:63
+h @ vendor-e6cdcb0eea1cdd76.min.js.br:3
+(anonymous) @ 5582-a79376ebaaaef860.min.js.br:1383
+T @ 5582-a79376ebaaaef860.min.js.br:1383
+await in T
+w @ 5582-a79376ebaaaef860.min.js.br:1383
+k @ 5582-a79376ebaaaef860.min.js.br:1383
+(anonymous) @ figma_app-e2a84ee0b0fd5bc9.min.js.br:177
+validate @ figma_app-e2a84ee0b0fd5bc9.min.js.br:234
+getFunctionLogs @ figma_app-e2a84ee0b0fd5bc9.min.js.br:177
+fetch @ figma_app-e2a84ee0b0fd5bc9.min.js.br:312
+p @ 5582-a79376ebaaaef860.min.js.br:329
+await in p
+d @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+_ @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+h @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+fetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+executeFetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+u @ vendor-core-83c17265f2588e9e.min.js.br:54
+setInterval
+(anonymous) @ vendor-core-83c17265f2588e9e.min.js.br:63
+updateRefetchInterval @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+updateTimers @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+onQueryUpdate @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+batch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+dispatch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+setData @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+onSuccess @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+b @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+Promise.then
+_ @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+h @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+fetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+executeFetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+u @ vendor-core-83c17265f2588e9e.min.js.br:54
+setInterval
+(anonymous) @ vendor-core-83c17265f2588e9e.min.js.br:63
+updateRefetchInterval @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+updateTimers @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+onQueryUpdate @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+batch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+dispatch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+setData @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+onSuccess @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+b @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+Promise.then
+_ @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+h @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+fetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+executeFetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+u @ vendor-core-83c17265f2588e9e.min.js.br:54Understand this error
+vendor-core-83c17265f2588e9e.min.js.br:63  GET https://www.figma.com/api/integrations/supabase/mcCNDiTaKlvI1VITobnJ7o/edge_functions/make-server/logs 429 (Too Many Requests)
+(anonymous) @ vendor-core-83c17265f2588e9e.min.js.br:63
+h @ vendor-e6cdcb0eea1cdd76.min.js.br:3
+(anonymous) @ 5582-a79376ebaaaef860.min.js.br:1383
+T @ 5582-a79376ebaaaef860.min.js.br:1383
+await in T
+w @ 5582-a79376ebaaaef860.min.js.br:1383
+await in w
+k @ 5582-a79376ebaaaef860.min.js.br:1383
+(anonymous) @ figma_app-e2a84ee0b0fd5bc9.min.js.br:177
+validate @ figma_app-e2a84ee0b0fd5bc9.min.js.br:234
+getFunctionLogs @ figma_app-e2a84ee0b0fd5bc9.min.js.br:177
+fetch @ figma_app-e2a84ee0b0fd5bc9.min.js.br:312
+p @ 5582-a79376ebaaaef860.min.js.br:329
+await in p
+d @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+_ @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+h @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+fetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+executeFetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+u @ vendor-core-83c17265f2588e9e.min.js.br:54
+setInterval
+(anonymous) @ vendor-core-83c17265f2588e9e.min.js.br:63
+updateRefetchInterval @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+updateTimers @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+onQueryUpdate @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+batch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+dispatch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+setData @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+onSuccess @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+b @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+Promise.then
+_ @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+h @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+fetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+executeFetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+u @ vendor-core-83c17265f2588e9e.min.js.br:54
+setInterval
+(anonymous) @ vendor-core-83c17265f2588e9e.min.js.br:63
+updateRefetchInterval @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+updateTimers @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+onQueryUpdate @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+batch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+dispatch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+setData @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+onSuccess @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+b @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+Promise.then
+_ @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+h @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+fetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+executeFetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+u @ vendor-core-83c17265f2588e9e.min.js.br:54Understand this error
+vendor-core-83c17265f2588e9e.min.js.br:63  GET https://www.figma.com/api/integrations/supabase/mcCNDiTaKlvI1VITobnJ7o/edge_functions/make-server/logs 429 (Too Many Requests)
+(anonymous) @ vendor-core-83c17265f2588e9e.min.js.br:63
+h @ vendor-e6cdcb0eea1cdd76.min.js.br:3
+(anonymous) @ 5582-a79376ebaaaef860.min.js.br:1383
+T @ 5582-a79376ebaaaef860.min.js.br:1383
+await in T
+w @ 5582-a79376ebaaaef860.min.js.br:1383
+await in w
+k @ 5582-a79376ebaaaef860.min.js.br:1383
+(anonymous) @ figma_app-e2a84ee0b0fd5bc9.min.js.br:177
+validate @ figma_app-e2a84ee0b0fd5bc9.min.js.br:234
+getFunctionLogs @ figma_app-e2a84ee0b0fd5bc9.min.js.br:177
+fetch @ figma_app-e2a84ee0b0fd5bc9.min.js.br:312
+p @ 5582-a79376ebaaaef860.min.js.br:329
+await in p
+d @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+_ @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+h @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+fetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+executeFetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+u @ vendor-core-83c17265f2588e9e.min.js.br:54
+setInterval
+(anonymous) @ vendor-core-83c17265f2588e9e.min.js.br:63
+updateRefetchInterval @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+updateTimers @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+onQueryUpdate @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+batch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+dispatch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+setData @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+onSuccess @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+b @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+Promise.then
+_ @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+h @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+fetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+executeFetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+u @ vendor-core-83c17265f2588e9e.min.js.br:54
+setInterval
+(anonymous) @ vendor-core-83c17265f2588e9e.min.js.br:63
+updateRefetchInterval @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+updateTimers @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+onQueryUpdate @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+batch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+dispatch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+setData @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+onSuccess @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+b @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+Promise.then
+_ @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+h @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+fetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+executeFetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+u @ vendor-core-83c17265f2588e9e.min.js.br:54Understand this error
+vendor-core-83c17265f2588e9e.min.js.br:63  GET https://www.figma.com/api/integrations/supabase/mcCNDiTaKlvI1VITobnJ7o/edge_functions/make-server/logs 429 (Too Many Requests)
+(anonymous) @ vendor-core-83c17265f2588e9e.min.js.br:63
+h @ vendor-e6cdcb0eea1cdd76.min.js.br:3
+(anonymous) @ 5582-a79376ebaaaef860.min.js.br:1383
+T @ 5582-a79376ebaaaef860.min.js.br:1383
+await in T
+w @ 5582-a79376ebaaaef860.min.js.br:1383
+await in w
+k @ 5582-a79376ebaaaef860.min.js.br:1383
+(anonymous) @ figma_app-e2a84ee0b0fd5bc9.min.js.br:177
+validate @ figma_app-e2a84ee0b0fd5bc9.min.js.br:234
+getFunctionLogs @ figma_app-e2a84ee0b0fd5bc9.min.js.br:177
+fetch @ figma_app-e2a84ee0b0fd5bc9.min.js.br:312
+p @ 5582-a79376ebaaaef860.min.js.br:329
+await in p
+d @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+_ @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+h @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+fetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+executeFetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+u @ vendor-core-83c17265f2588e9e.min.js.br:54
+setInterval
+(anonymous) @ vendor-core-83c17265f2588e9e.min.js.br:63
+updateRefetchInterval @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+updateTimers @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+onQueryUpdate @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+batch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+dispatch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+setData @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+onSuccess @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+b @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+Promise.then
+_ @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+h @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+fetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+executeFetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+u @ vendor-core-83c17265f2588e9e.min.js.br:54
+setInterval
+(anonymous) @ vendor-core-83c17265f2588e9e.min.js.br:63
+updateRefetchInterval @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+updateTimers @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+onQueryUpdate @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+batch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+dispatch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+setData @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+onSuccess @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+b @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+Promise.then
+_ @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+h @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+fetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+executeFetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+u @ vendor-core-83c17265f2588e9e.min.js.br:54Understand this error

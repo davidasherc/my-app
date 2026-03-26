@@ -1,0 +1,92 @@
+/* 
+  BRANDING CUSTOMIZATION EXAMPLES
+  
+  You can easily customize your app's branding by modifying the CSS custom properties
+  in globals.css. Here are some popular branding themes you can apply:
+*/
+
+/* Example 1: Calm Healthcare Brand (Soft Blues & Greens) */
+.theme-healthcare {
+  /* Primary brand colors */
+  --primary: #2563eb; /* Professional blue */
+  --primary-foreground: #ffffff;
+  
+  /* Accent colors for wellness theme */
+  --accent: #d1fae5; /* Soft mint green */
+  --accent-foreground: #065f46;
+  
+  /* Background gradients */
+  --background-gradient: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  
+  /* Emotion-specific colors */
+  --emotion-happiness: #fbbf24; /* Warm yellow */
+  --emotion-anxiety: #f97316; /* Soft orange */
+  --emotion-calm: #10b981; /* Calming green */
+  --emotion-sadness: #3b82f6; /* Gentle blue */
+  --emotion-anger: #ef4444; /* Controlled red */
+  --emotion-energy: #8b5cf6; /* Energetic purple */
+}
+
+/* Example 2: Modern Therapy Practice (Purple & Teal) */
+.theme-therapy {
+  --primary: #7c3aed; /* Professional purple */
+  --primary-foreground: #ffffff;
+  --secondary: #0d9488; /* Therapeutic teal */
+  --accent: #f3e8ff; /* Light purple */
+  --background-gradient: linear-gradient(135deg, #faf5ff 0%, #f0fdfa 100%);
+}
+
+/* Example 3: Wellness Spa (Earth Tones) */
+.theme-wellness {
+  --primary: #92400e; /* Warm brown */
+  --primary-foreground: #ffffff;
+  --secondary: #065f46; /* Deep green */
+  --accent: #fef3c7; /* Soft yellow */
+  --background-gradient: linear-gradient(135deg, #fffbeb 0%, #f0fdf4 100%);
+}
+
+/* Example 4: Tech Startup (Bold & Modern) */
+.theme-startup {
+  --primary: #1d4ed8; /* Bold blue */
+  --primary-foreground: #ffffff;
+  --secondary: #7c2d12; /* Tech orange */
+  --accent: #dbeafe; /* Light blue */
+  --background-gradient: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+}
+
+/* Custom font examples */
+.font-brand-modern {
+  font-family: 'Inter', 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.font-brand-friendly {
+  font-family: 'Poppins', 'Nunito', system-ui, sans-serif;
+}
+
+.font-brand-professional {
+  font-family: 'Source Sans Pro', 'Roboto', system-ui, sans-serif;
+}
+
+/* Logo and icon customizations */
+.brand-logo {
+  /* You can replace the Heart icon with your custom logo */
+  background-image: url('/logo.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Custom border radius for brand personality */
+.rounded-brand-soft { border-radius: 1rem; } /* Soft, friendly */
+.rounded-brand-sharp { border-radius: 0.25rem; } /* Professional, sharp */
+.rounded-brand-organic { border-radius: 1.5rem; } /* Organic, wellness */
+
+/* Animation and interaction customizations */
+.transition-brand {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hover-brand:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}

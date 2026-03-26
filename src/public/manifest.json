@@ -1,0 +1,33 @@
+{
+  "name": "Daily Emotional Journal",
+  "short_name": "EmotionJournal",
+  "description": "A simple, friendly app to track your daily emotional state and share with your therapist",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#dbeafe",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://i.imgur.com/FRDC1EM.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "https://i.imgur.com/FRDC1EM.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["health", "medical", "lifestyle"],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "type": "image/png",
+      "sizes": "320x640",
+      "form_factor": "narrow"
+    }
+  ]
+}

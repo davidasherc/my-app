@@ -1,0 +1,119 @@
+🔥🔥🔥🔥🔥 SUBSCRIPTION MANAGER LOADED! USER: {id: '2', email: 'basic@test.com', firstName: 'Basic', lastName: 'User', subscriptionStatus: 'trial', …}
+code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:90 🚨🚨🚨 SUBSCRIPTION MANAGER VERSION: 2024-03-25-FINAL-FIX 🚨🚨🚨
+code_components_preview_iframe-fc89d2cee81f1d72.min.js.br:90 🚨🚨🚨 TIMESTAMP: 2026-03-25T03:06:37.113Z 🚨🚨🚨
+vendor-core-83c17265f2588e9e.min.js.br:63  GET https://www.figma.com/api/integrations/supabase/mcCNDiTaKlvI1VITobnJ7o/edge_functions/make-server/logs 429 (Too Many Requests)
+(anonymous) @ vendor-core-83c17265f2588e9e.min.js.br:63
+h @ vendor-e6cdcb0eea1cdd76.min.js.br:3
+(anonymous) @ 5582-a79376ebaaaef860.min.js.br:1383
+T @ 5582-a79376ebaaaef860.min.js.br:1383
+await in T
+w @ 5582-a79376ebaaaef860.min.js.br:1383
+k @ 5582-a79376ebaaaef860.min.js.br:1383
+(anonymous) @ figma_app-e2a84ee0b0fd5bc9.min.js.br:177
+validate @ figma_app-e2a84ee0b0fd5bc9.min.js.br:234
+getFunctionLogs @ figma_app-e2a84ee0b0fd5bc9.min.js.br:177
+fetch @ figma_app-e2a84ee0b0fd5bc9.min.js.br:312
+p @ 5582-a79376ebaaaef860.min.js.br:329
+await in p
+d @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+_ @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+h @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+fetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+executeFetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+u @ vendor-core-83c17265f2588e9e.min.js.br:54
+setInterval
+(anonymous) @ vendor-core-83c17265f2588e9e.min.js.br:63
+updateRefetchInterval @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+updateTimers @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+onQueryUpdate @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+batch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+dispatch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+setData @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+onSuccess @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+b @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+Promise.then
+_ @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+h @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+fetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+executeFetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+u @ vendor-core-83c17265f2588e9e.min.js.br:54
+setInterval
+(anonymous) @ vendor-core-83c17265f2588e9e.min.js.br:63
+updateRefetchInterval @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+updateTimers @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+onQueryUpdate @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+batch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+dispatch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+setData @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+onSuccess @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+b @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+Promise.then
+_ @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+h @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+fetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+executeFetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+u @ vendor-core-83c17265f2588e9e.min.js.br:54
+setInterval
+(anonymous) @ vendor-core-83c17265f2588e9e.min.js.br:63
+updateRefetchInterval @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+updateTimers @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+onQueryUpdate @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+batch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+dispatch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+setData @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+onSuccess @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+b @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+Promise.then
+_ @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+h @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+fetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+executeFetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+u @ vendor-core-83c17265f2588e9e.min.js.br:54
+setInterval
+(anonymous) @ vendor-core-83c17265f2588e9e.min.js.br:63
+updateRefetchInterval @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+updateTimers @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+onQueryUpdate @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+batch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+dispatch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+setData @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+onSuccess @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+b @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+Promise.then
+_ @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+h @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+fetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+executeFetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+u @ vendor-core-83c17265f2588e9e.min.js.br:54
+setInterval
+(anonymous) @ vendor-core-83c17265f2588e9e.min.js.br:63
+updateRefetchInterval @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+updateTimers @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+onQueryUpdate @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+batch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+dispatch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+setData @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+onSuccess @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+b @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+Promise.then
+_ @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+h @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+fetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+executeFetch @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+(anonymous) @ vendor-e6cdcb0eea1cdd76.min.js.br:296
+u @ vendor-core-83c17265f2588e9e.min.js.br:54Understand this error
