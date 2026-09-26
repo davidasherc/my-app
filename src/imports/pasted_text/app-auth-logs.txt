@@ -1,0 +1,52 @@
+🔥🔥🔥 APP.TSX VERSION: 2024-03-25-V5 🔥🔥🔥
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:66 🎯🎯🎯 APP.TSX RENDER - Auth State: {user: 'NULL', isAuthenticated: false, isVerified: undefined, isLoading: true}
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:66 🔴🔴🔴 APP.TSX USEEFFECT - USER CHANGED: null
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:66 🔵🔵🔵 AUTHPROVIDER USEEFFECT - LOADING CACHED USER...
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:66 📂 Checking for cached user...
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:66 🎯🎯🎯 APP.TSX RENDER - Auth State: {user: 'NULL', isAuthenticated: false, isVerified: undefined, isLoading: true}
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:66 📂 Raw cached value exists: false
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:66 📂 No cached user found
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:66 📂 loadCachedUser finished, isLoading = false
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:66 🎯🎯🎯 APP.TSX RENDER - Auth State: {user: 'NULL', isAuthenticated: false, isVerified: undefined, isLoading: false}
+/make/mcCNDiTaKlvI1VITobnJ7o/Mood2Day---Daily-Emotional-State-Journal-App?p=f&t=BcDoWgHvJX9V9zbt-0:1 Form submission canceled because the form is not connectedUnderstand this warning
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 [vite] connecting...
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 [vite] connected.
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 🔥🔥🔥 APP.TSX VERSION: 2024-03-25-V5 🔥🔥🔥
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 🎯🎯🎯 APP.TSX RENDER - Auth State: {user: 'NULL', isAuthenticated: false, isVerified: undefined, isLoading: true}
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 🔴🔴🔴 APP.TSX USEEFFECT - USER CHANGED: null
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 🔵🔵🔵 AUTHPROVIDER USEEFFECT - LOADING CACHED USER...
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 📂 Checking for cached user...
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 🎯🎯🎯 APP.TSX RENDER - Auth State: {user: 'NULL', isAuthenticated: false, isVerified: undefined, isLoading: true}
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 🎯🎯🎯 APP.TSX RENDER - Auth State: {user: 'NULL', isAuthenticated: false, isVerified: undefined, isLoading: true}
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 🎯🎯🎯 APP.TSX RENDER - Auth State: {user: 'NULL', isAuthenticated: false, isVerified: undefined, isLoading: true}
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 🎯🎯🎯 APP.TSX RENDER - Auth State: {user: 'NULL', isAuthenticated: false, isVerified: undefined, isLoading: true}
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 📂 Raw cached value exists: false
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 📂 No cached user found
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 📂 loadCachedUser finished, isLoading = false
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 🎯🎯🎯 APP.TSX RENDER - Auth State: {user: 'NULL', isAuthenticated: false, isVerified: undefined, isLoading: false}
+/make/mcCNDiTaKlvI1VITobnJ7o/Mood2Day---Daily-Emotional-State-Journal-App?p=f&t=BcDoWgHvJX9V9zbt-0:1 Blocked aria-hidden on an element because its descendant retained focus. The focus must not be hidden from assistive technology users. Avoid using aria-hidden on a focused element or its ancestor. Consider using the inert attribute instead, which will also prevent focus. For more details, see the aria-hidden section of the WAI-ARIA specification at https://w3c.github.io/aria/#aria-hidden.
+Element with focus: <button._19xx72g0 button__button__-U-QJ button__primary__tP7NU button__lg__oiEan button__hug__sHi7n>
+Ancestor with aria-hidden: <div.fullscreen_view--fullscreenViewportWrapper--TV7Gb> <div aria-hidden=​"true" class=​"fullscreen_view--fullscreenViewportWrapper--TV7Gb">​…​</div>​flexUnderstand this warning
+/make/mcCNDiTaKlvI1VITobnJ7o/Mood2Day---Daily-Emotional-State-Journal-App?p=f&t=BcDoWgHvJX9V9zbt-0:1 Blocked aria-hidden on an element because its descendant retained focus. The focus must not be hidden from assistive technology users. Avoid using aria-hidden on a focused element or its ancestor. Consider using the inert attribute instead, which will also prevent focus. For more details, see the aria-hidden section of the WAI-ARIA specification at https://w3c.github.io/aria/#aria-hidden.
+Element with focus: <a.x3nfvp2 x6s0dn4 x1sk9g4k x12ejqi2 xk7yfq7 x7r0jtz xia6lk6 x1fuw9x7 x1qymret x1hiae8k xc342km x1ypdohk x1srez4a x1hl2dhg>
+Ancestor with aria-hidden: <div.share_as_row--rowContent--pnfgD#:rb2:> <div data-fpl-component=​"primitive" aria-hidden=​"true" id=​":​rb2:​" class=​"share_as_row--rowContent--pnfgD">​…​</div>​flexUnderstand this warning
+vendor-core-1830223d6f0ba72d.min.js.br:54 [Sprigma] Sprig SDK is not yet ready, sending message to queue
+vendor-core-1830223d6f0ba72d.min.js.br:54 [Sprigma] Currently queued messages: (4) [{…}, {…}, {…}, {…}]
+vendor-core-1830223d6f0ba72d.min.js.br:54 [Sprigma] Sprig SDK is not yet ready, sending message to queue
+vendor-core-1830223d6f0ba72d.min.js.br:54 [Sprigma] Currently queued messages: (5) [{…}, {…}, {…}, {…}, {…}]
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 [vite] connecting...
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 [vite] connected.
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 🔥🔥🔥 APP.TSX VERSION: 2024-03-25-V5 🔥🔥🔥
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 🎯🎯🎯 APP.TSX RENDER - Auth State: {user: 'NULL', isAuthenticated: false, isVerified: undefined, isLoading: true}
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 🔴🔴🔴 APP.TSX USEEFFECT - USER CHANGED: null
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 🔵🔵🔵 AUTHPROVIDER USEEFFECT - LOADING CACHED USER...
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 📂 Checking for cached user...
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 🎯🎯🎯 APP.TSX RENDER - Auth State: {user: 'NULL', isAuthenticated: false, isVerified: undefined, isLoading: true}
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 🎯🎯🎯 APP.TSX RENDER - Auth State: {user: 'NULL', isAuthenticated: false, isVerified: undefined, isLoading: true}
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 🎯🎯🎯 APP.TSX RENDER - Auth State: {user: 'NULL', isAuthenticated: false, isVerified: undefined, isLoading: true}
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 🎯🎯🎯 APP.TSX RENDER - Auth State: {user: 'NULL', isAuthenticated: false, isVerified: undefined, isLoading: true}
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 📂 Raw cached value exists: false
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 📂 No cached user found
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 📂 loadCachedUser finished, isLoading = false
+code_components_preview_iframe-c8382df7c81241b5.min.js.br:107 🎯🎯🎯 APP.TSX RENDER - Auth State: {user: 'NULL', isAuthenticated: false, isVerified: undefined, isLoading: false}
+vendor-core-1830223d6f0ba72d.min.js.br:54 [MultiplayerSession] connecting to wss://www.figma.com/api/multiplayer/mcCNDiTaKlvI1VITobnJ7o?role=editor&tracking_session_id=skvrDSH0yGartmm0&version=153&recentReload=0&file-load-streaming-compression=&user-id=1200831316466759626&client_release=e00b23210a5cc13cfa75d089fb160c6a97309061&reconnect-key=8f5084387797dcc350be3ebb3fb81809d3523cda&reconnect-sequence-number=1687&initialFileVersion=106&previousLoadMode=full&incremental-loading-validation=0

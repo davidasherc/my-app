@@ -1,0 +1,98 @@
+loadCachedUser finished, isLoading = false
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🎯🎯🎯 APP.TSX RENDER - Auth State: {user: 'davidasherc@gmail.com (user_1777511443774_nqmau)', isAuthenticated: true, isVerified: true, isLoading: false}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔴🔴🔴 APP.TSX USEEFFECT - USER CHANGED: {id: 'user_1777511443774_nqmau', email: 'davidasherc@gmail.com', firstName: 'David', lastName: 'Cohen', subscriptionStatus: 'trial', …}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔵 Loading recent entries for user: davidasherc@gmail.com
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🎯🎯🎯 APP.TSX RENDER - Auth State: {user: 'davidasherc@gmail.com (user_1777511443774_nqmau)', isAuthenticated: true, isVerified: true, isLoading: false}
+vendor-core-34edd2c749031eb9.min.js.br:63  GET https://www.figma.com/api/rev/mcCNDiTaKlvI1VITobnJ7o/code_snapshot/a18b43914876da80a6cfdf1a9c2bfcfa73664dcc7ae04b29ad8fe493a5016023 404 (Not Found)
+(anonymous) @ vendor-core-34edd2c749031eb9.min.js.br:63
+h @ vendor-9635f534eb7b757f.min.js.br:3
+(anonymous) @ 8228-5ab374f8953946ba.min.js.br:1403
+k @ 8228-5ab374f8953946ba.min.js.br:1403
+await in k
+N @ 8228-5ab374f8953946ba.min.js.br:1403
+R @ 8228-5ab374f8953946ba.min.js.br:1403
+(anonymous) @ 7902-1f1c7f1bda17abfc.min.js.br:3
+validate @ figma_app-d890ac4834dcf4e7.min.js.br:201
+getCodeSnapshot @ 7902-1f1c7f1bda17abfc.min.js.br:3
+(anonymous) @ 9831-31c3f81a862bf577.min.js.br:3
+(anonymous) @ 7902-1f1c7f1bda17abfc.min.js.br:3
+run @ 7902-1f1c7f1bda17abfc.min.js.br:3
+v @ 9831-31c3f81a862bf577.min.js.br:3
+(anonymous) @ 9831-31c3f81a862bf577.min.js.br:3
+(anonymous) @ 9831-31c3f81a862bf577.min.js.br:3
+aB @ vendor-core-34edd2c749031eb9.min.js.br:11
+oD @ vendor-core-34edd2c749031eb9.min.js.br:11
+oP @ vendor-core-34edd2c749031eb9.min.js.br:11
+t5 @ vendor-core-34edd2c749031eb9.min.js.br:11
+(anonymous) @ vendor-core-34edd2c749031eb9.min.js.br:11
+oB @ vendor-core-34edd2c749031eb9.min.js.br:11
+oE @ vendor-core-34edd2c749031eb9.min.js.br:11
+(anonymous) @ vendor-core-34edd2c749031eb9.min.js.br:54
+S @ vendor-core-34edd2c749031eb9.min.js.br:54
+O @ vendor-core-34edd2c749031eb9.min.js.br:54Understand this error
+vendor-core-34edd2c749031eb9.min.js.br:54 Failed to fetch snapshot files: T: XHR for "/api/rev/mcCNDiTaKlvI1VITobnJ7o/code_snapshot/a18b43914876da80a6cfdf1a9c2bfcfa73664dcc7ae04b29ad8fe493a5016023" failed with status 404
+    at N (8228-5ab374f8953946ba.min.js.br:1403:13521)
+    at async Object.R [as get] (8228-5ab374f8953946ba.min.js.br:1403:13904)
+    at async 7902-1f1c7f1bda17abfc.min.js.br:3:1767
+    at async 9831-31c3f81a862bf577.min.js.br:3:140510
+    at async 7902-1f1c7f1bda17abfc.min.js.br:3:2275
+    at async v (9831-31c3f81a862bf577.min.js.br:3:139928)
+    at async 9831-31c3f81a862bf577.min.js.br:3:116604
+(anonymous) @ vendor-core-34edd2c749031eb9.min.js.br:54
+(anonymous) @ 9831-31c3f81a862bf577.min.js.br:3
+await in (anonymous)
+(anonymous) @ 9831-31c3f81a862bf577.min.js.br:3
+aB @ vendor-core-34edd2c749031eb9.min.js.br:11
+oD @ vendor-core-34edd2c749031eb9.min.js.br:11
+oP @ vendor-core-34edd2c749031eb9.min.js.br:11
+t5 @ vendor-core-34edd2c749031eb9.min.js.br:11
+(anonymous) @ vendor-core-34edd2c749031eb9.min.js.br:11
+oB @ vendor-core-34edd2c749031eb9.min.js.br:11
+oE @ vendor-core-34edd2c749031eb9.min.js.br:11
+(anonymous) @ vendor-core-34edd2c749031eb9.min.js.br:54
+S @ vendor-core-34edd2c749031eb9.min.js.br:54
+O @ vendor-core-34edd2c749031eb9.min.js.br:54Understand this warning
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 [vite] hot updated: /index.css
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 [vite] hot updated: /src/components/SubscriptionManager.tsx
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 2:15:44 AM [vite] (client) hmr update /index.css, /src/components/SubscriptionManager.tsx
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🎯🎯🎯 APP.TSX RENDER - Auth State: {user: 'davidasherc@gmail.com (user_1777511443774_nqmau)', isAuthenticated: true, isVerified: true, isLoading: false}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🎯🎯🎯 APP.TSX RENDER - Auth State: {user: 'davidasherc@gmail.com (user_1777511443774_nqmau)', isAuthenticated: true, isVerified: true, isLoading: false}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔥🔥🔥🔥🔥 SUBSCRIPTION MANAGER LOADED! USER: {id: 'user_1777511443774_nqmau', email: 'davidasherc@gmail.com', firstName: 'David', lastName: 'Cohen', subscriptionStatus: 'trial', …}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🚨🚨🚨 SUBSCRIPTION MANAGER VERSION: 2024-04-20-WINDOW-OPEN-FIX 🚨🚨🚨
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🚨🚨🚨 TIMESTAMP: 2026-04-30T02:29:27.296Z 🚨🚨🚨
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔄🔄🔄 Syncing from Stripe...
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔄 User ID: user_1777511443774_nqmau
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔄 User Email: davidasherc@gmail.com
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔄 Making request to: https://pyixvaanmebwlxsivlue.supabase.co/functions/v1/make-server-2538a5b0/sync-from-stripe
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔥🔥🔥🔥🔥 SUBSCRIPTION MANAGER LOADED! USER: {id: 'user_1777511443774_nqmau', email: 'davidasherc@gmail.com', firstName: 'David', lastName: 'Cohen', subscriptionStatus: 'trial', …}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🚨🚨🚨 SUBSCRIPTION MANAGER VERSION: 2024-04-20-WINDOW-OPEN-FIX 🚨🚨🚨
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🚨🚨🚨 TIMESTAMP: 2026-04-30T02:29:29.634Z 🚨🚨🚨
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔄 Response status: 200
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔄 Response data: {success: true, message: 'Subscription synced successfully!', user: {…}, subscription: {…}}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔄🔄🔄 UPDATE PROFILE CALLED! {currentUser: {…}, updates: {…}}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔄 UPDATED USER OBJECT: {id: 'user_1777511443774_nqmau', email: 'davidasherc@gmail.com', firstName: 'David', lastName: 'Cohen', subscriptionStatus: 'active', …}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 💾💾💾 STORING USER: {id: 'user_1777511443774_nqmau', email: 'davidasherc@gmail.com', firstName: 'David', lastName: 'Cohen', subscriptionStatus: 'active', …}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🎯🎯🎯 APP.TSX RENDER - Auth State: {user: 'davidasherc@gmail.com (user_1777511443774_nqmau)', isAuthenticated: true, isVerified: true, isLoading: false}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔥🔥🔥🔥🔥 SUBSCRIPTION MANAGER LOADED! USER: {id: 'user_1777511443774_nqmau', email: 'davidasherc@gmail.com', firstName: 'David', lastName: 'Cohen', subscriptionStatus: 'active', …}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🚨🚨🚨 SUBSCRIPTION MANAGER VERSION: 2024-04-20-WINDOW-OPEN-FIX 🚨🚨🚨
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🚨🚨🚨 TIMESTAMP: 2026-04-30T02:29:32.531Z 🚨🚨🚨
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔴🔴🔴 APP.TSX USEEFFECT - USER CHANGED: {id: 'user_1777511443774_nqmau', email: 'davidasherc@gmail.com', firstName: 'David', lastName: 'Cohen', subscriptionStatus: 'active', …}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔵 Loading recent entries for user: davidasherc@gmail.com
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🎯🎯🎯 APP.TSX RENDER - Auth State: {user: 'davidasherc@gmail.com (user_1777511443774_nqmau)', isAuthenticated: true, isVerified: true, isLoading: false}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔥🔥🔥🔥🔥 SUBSCRIPTION MANAGER LOADED! USER: {id: 'user_1777511443774_nqmau', email: 'davidasherc@gmail.com', firstName: 'David', lastName: 'Cohen', subscriptionStatus: 'active', …}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🚨🚨🚨 SUBSCRIPTION MANAGER VERSION: 2024-04-20-WINDOW-OPEN-FIX 🚨🚨🚨
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🚨🚨🚨 TIMESTAMP: 2026-04-30T02:29:32.546Z 🚨🚨🚨
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 [vite] connecting...
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 [vite] connected.
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔥🔥🔥 APP.TSX VERSION: 2024-03-25-V5 🔥🔥🔥
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🎯🎯🎯 APP.TSX RENDER - Auth State: {user: 'NULL', isAuthenticated: false, isVerified: undefined, isLoading: true}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔴🔴🔴 APP.TSX USEEFFECT - USER CHANGED: null
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔵🔵🔵 AUTHPROVIDER USEEFFECT - LOADING CACHED USER...
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 📂 Checking for cached user...
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 📂 Raw cached value exists: true
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 ✅ LOADED CACHED USER: {id: 'user_1777511443774_nqmau', email: 'davidasherc@gmail.com', firstName: 'David', lastName: 'Cohen', subscriptionStatus: 'active', …}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 📂 loadCachedUser finished, isLoading = false
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🎯🎯🎯 APP.TSX RENDER - Auth State: {user: 'davidasherc@gmail.com (user_1777511443774_nqmau)', isAuthenticated: true, isVerified: true, isLoading: false}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔴🔴🔴 APP.TSX USEEFFECT - USER CHANGED: {id: 'user_1777511443774_nqmau', email: 'davidasherc@gmail.com', firstName: 'David', lastName: 'Cohen', subscriptionStatus: 'active', …}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔵 Loading recent entries for user: davidasherc@gmail.com
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🎯🎯🎯 APP.TSX RENDER - Auth State: {user: 'davidasherc@gmail.com (user_1777511443774_nqmau)', isAuthenticated: true, isVerified: true, isLoading: false}

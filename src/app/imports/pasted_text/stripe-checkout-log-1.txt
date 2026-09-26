@@ -1,0 +1,35 @@
+🚨 USER SUBSCRIPTION PLAN: basic
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🚨 USER SUBSCRIPTION STATUS: trial
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 💳 Creating checkout session for plan: premium billing: monthly
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔵 getPriceId called with: {plan: 'premium', cycle: 'monthly'}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔵 Available STRIPE_PRICES: {premium_monthly: 'price_1TCnzlCFfBfnCkpSxCpnMc7j', premium_yearly: 'price_1TCoBSCFfBfnCkpS1CVgTisN', family_monthly: 'price_1TCoKRCFfBfnCkpSc2ivHWSE', family_yearly: 'price_1TCoOZCFfBfnCkpSTotHkzsI'}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔵 Looking for key: premium_monthly
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔵 Found priceId: price_1TCnzlCFfBfnCkpSxCpnMc7j
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 💳 Price ID: price_1TCnzlCFfBfnCkpSxCpnMc7j
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 💳 Session params: {priceId: 'price_1TCnzlCFfBfnCkpSxCpnMc7j', userId: '0', email: 'demo@example.com', planName: 'premium'}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 💳 Calling createCheckoutSession...
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔥 createCheckoutSession called with params: {priceId: 'price_1TCnzlCFfBfnCkpSxCpnMc7j', userId: '0', email: 'demo@example.com', planName: 'premium'}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔥 Using SUPABASE_URL: https://pyixvaanmebwlxsivlue.supabase.co
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔥 Using auth: Anon key
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔥🔥🔥🔥🔥 SUBSCRIPTION MANAGER LOADED! USER: {id: '0', email: 'demo@example.com', firstName: 'Demo', lastName: 'User', subscriptionStatus: 'trial', …}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🚨🚨🚨 SUBSCRIPTION MANAGER VERSION: 2024-03-25-CACHE-BUSTER-V3 🚨🚨🚨
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🚨🚨🚨 TIMESTAMP: 2026-04-18T03:17:41.083Z 🚨🚨🚨
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔥 Response status: 200
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔥 Response ok: true
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 ✅ Checkout session created successfully: {sessionId: 'cs_test_a16hFD69XiqEB9dC91HVaITkbJ6q725DEs5PCBC6JlRVdfSOlaObWvsog9', url: 'https://checkout.stripe.com/c/pay/cs_test_a16hFD69…gWmxxYGgnKSdga2RnaWBVaWRmYG1qaWFgd3YnP3F3cGB4JSUl'}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 💳 Checkout session created: {sessionId: 'cs_test_a16hFD69XiqEB9dC91HVaITkbJ6q725DEs5PCBC6JlRVdfSOlaObWvsog9', url: 'https://checkout.stripe.com/c/pay/cs_test_a16hFD69…gWmxxYGgnKSdga2RnaWBVaWRmYG1qaWFgd3YnP3F3cGB4JSUl'}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 💳 Redirecting to checkout URL: https://checkout.stripe.com/c/pay/cs_test_a16hFD69XiqEB9dC91HVaITkbJ6q725DEs5PCBC6JlRVdfSOlaObWvsog9#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdkdWxOYHwnPyd1blpxYHZxWjA0UUZjQDxGQ2NHY2tGbnVWYEd0dGJ1TDdJcTNqQWREMkBJcj1oaz1nXTYzfFFKbXdUUnBgTXE9cmlkfDZnY0dHb3JNfVxoTj1MZ042QDJkU3VgX0ZBPF92NTVqdkxCY3FuMicpJ2N3amhWYHdzYHcnP3F3cGApJ2dkZm5id2pwa2FGamlqdyc%2FJyZjY2NjY2MnKSdpZHxqcHFRfHVgJz8ndmxrYmlgWmxxYGgnKSdga2RnaWBVaWRmYG1qaWFgd3YnP3F3cGB4JSUl
+checkout.stripe.com/c/pay/cs_test_a16hFD69XiqEB9dC91HVaITkbJ6q725DEs5PCBC6JlRVdfSOlaObWvsog9#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdkdWxOYHwnPyd1blpxYHZxWjA0UUZjQDxGQ2NHY2tGbnVWYEd0dGJ1TDdJcTNqQWREMkBJcj1oaz1nXTYzfFFKbXdUUnBgTXE9cmlkfDZnY0dHb3JNfVxoTj1MZ042QDJkU3VgX0ZBPF92NTVqdkxCY3FuMicpJ2N3amhWYHdzYHcnP3F3cGApJ2dkZm5id2pwa2FGamlqdyc%2FJyZjY2NjY2MnKSdpZHxqcHFRfHVgJz8ndmxrYmlgWmxxYGgnKSdga2RnaWBVaWRmYG1qaWFgd3YnP3F3cGB4JSUl:1 <link rel=preload> uses an unsupported `as` valueUnderstand this warning
+checkout.stripe.com/c/pay/cs_test_a16hFD69XiqEB9dC91HVaITkbJ6q725DEs5PCBC6JlRVdfSOlaObWvsog9#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdkdWxOYHwnPyd1blpxYHZxWjA0UUZjQDxGQ2NHY2tGbnVWYEd0dGJ1TDdJcTNqQWREMkBJcj1oaz1nXTYzfFFKbXdUUnBgTXE9cmlkfDZnY0dHb3JNfVxoTj1MZ042QDJkU3VgX0ZBPF92NTVqdkxCY3FuMicpJ2N3amhWYHdzYHcnP3F3cGApJ2dkZm5id2pwa2FGamlqdyc%2FJyZjY2NjY2MnKSdpZHxqcHFRfHVgJz8ndmxrYmlgWmxxYGgnKSdga2RnaWBVaWRmYG1qaWFgd3YnP3F3cGB4JSUl:1 <link rel=preload> uses an unsupported `as` valueUnderstand this warning
+checkout-app-init-fded4403f199e09a3a537cecb8e4180a.js:1 Stripe Checkout is not able to run in an iFrame. Please redirect to Checkout at the top level.
+n.A @ checkout-app-init-fded4403f199e09a3a537cecb8e4180a.js:1
+apiKey @ checkout-app-init-fded4403f199e09a3a537cecb8e4180a.js:1
+oI @ checkout-app-init-fded4403f199e09a3a537cecb8e4180a.js:1
+(anonymous) @ cs_test_a16hFD69XiqEB9dC91HVaITkbJ6q725DEs5PCBC6JlRVdfSOlaObWvsog9:6
+Promise.then
+ee @ cs_test_a16hFD69XiqEB9dC91HVaITkbJ6q725DEs5PCBC6JlRVdfSOlaObWvsog9:6
+Promise.then
+(anonymous) @ cs_test_a16hFD69XiqEB9dC91HVaITkbJ6q725DEs5PCBC6JlRVdfSOlaObWvsog9:6
+(anonymous) @ cs_test_a16hFD69XiqEB9dC91HVaITkbJ6q725DEs5PCBC6JlRVdfSOlaObWvsog9:6
+(anonymous) @ cs_test_a16hFD69XiqEB9dC91HVaITkbJ6q725DEs5PCBC6JlRVdfSOlaObWvsog9:6Understand this error
+8[Violation] Added non-passive event listener to a scroll-blocking <some> event. Consider marking event handler as 'passive' to make the page more responsive. See <URL>

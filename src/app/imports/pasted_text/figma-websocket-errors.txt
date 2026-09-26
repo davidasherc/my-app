@@ -1,0 +1,345 @@
+AUTHPROVIDER USEEFFECT - LOADING CACHED USER...
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 📂 Checking for cached user...
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 📂 Raw cached value exists: true
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 ✅ LOADED CACHED USER: {id: '1776707840036', email: 'test6@example.com', firstName: 'q', lastName: 'w', subscriptionStatus: 'inactive', …}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 📂 loadCachedUser finished, isLoading = false
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔴🔴🔴 APP.TSX USEEFFECT - USER CHANGED: {id: '1776707840036', email: 'test6@example.com', firstName: 'q', lastName: 'w', subscriptionStatus: 'inactive', …}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔵 Loading recent entries for user: test6@example.com
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔑 Response status: 200
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔑 Raw response text: {"stripeConfigured":true,"stripeKeyPrefix":"sk_test","stripeKeyLength":107,"isTestKey":true,"webhookConfigured":true,"webhookPrefix":"whsec_d9y5"}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔑 Stripe config response: {stripeConfigured: true, stripeKeyPrefix: 'sk_test', stripeKeyLength: 107, isTestKey: true, webhookConfigured: true, …}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 ✅ Stripe config check successful!
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔥🔥🔥🔥🔥 SUBSCRIPTION MANAGER LOADED! USER: {id: '1776707840036', email: 'test6@example.com', firstName: 'q', lastName: 'w', subscriptionStatus: 'inactive', …}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🚨🚨🚨 SUBSCRIPTION MANAGER VERSION: 2024-04-20-WINDOW-OPEN-FIX 🚨🚨🚨
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🚨🚨🚨 TIMESTAMP: 2026-04-21T14:11:58.486Z 🚨🚨🚨
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+vendor-core-34edd2c749031eb9.min.js.br:54 [MultiplayerSession] connecting to wss://www.figma.com/api/multiplayer/mcCNDiTaKlvI1VITobnJ7o?role=editor&tracking_session_id=ezTWVcphP8kbuOJM&version=151&recentReload=0&file-load-streaming-compression=&user-id=1200831316466759626&client_release=9bda47be59ea666319d54a75365ce9ab5f4f7862&reconnect-key=7c356fc6da3a2d7c0377a278f96dcee674accb04&reconnect-sequence-number=1464&initialFileVersion=106&previousLoadMode=full&incremental-loading-validation=0&force-dpl-journaled-reconnect=1
+vendor-core-34edd2c749031eb9.min.js.br:54 [MultiplayerSession] Joining file version 106 (skip_reload reconnect)
+/make/mcCNDiTaKlvI1VITobnJ7o/Mood2Day---Daily-Emotional-State-Journal-App?p=f&t=bY3qow06en7XzJRR-0:1 Access to image at 'https://www.gravatar.com/avatar/640eea9ce0cf7706723babad7210ae7a?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_t_v2.png?c=1' from origin 'https://www.figma.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.Understand this error
+www.gravatar.com/avatar/640eea9ce0cf7706723babad7210ae7a?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_t_v2.png?c=1:1  GET https://www.gravatar.com/avatar/640eea9ce0cf7706723babad7210ae7a?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_t_v2.png?c=1 net::ERR_FAILED
+Image
+(anonymous) @ figma_app-d890ac4834dcf4e7.min.js.br:49
+U @ figma_app-d890ac4834dcf4e7.min.js.br:49
+g @ figma_app-d890ac4834dcf4e7.min.js.br:193
+(anonymous) @ figma_app-d890ac4834dcf4e7.min.js.br:193
+(anonymous) @ figma_app-d890ac4834dcf4e7.min.js.br:193
+aB @ vendor-core-34edd2c749031eb9.min.js.br:11
+oD @ vendor-core-34edd2c749031eb9.min.js.br:11
+(anonymous) @ vendor-core-34edd2c749031eb9.min.js.br:11
+oB @ vendor-core-34edd2c749031eb9.min.js.br:11
+oP @ vendor-core-34edd2c749031eb9.min.js.br:11
+t5 @ vendor-core-34edd2c749031eb9.min.js.br:11
+(anonymous) @ vendor-core-34edd2c749031eb9.min.js.br:11
+requestAnimationFrame
+(anonymous) @ vendor-core-34edd2c749031eb9.min.js.br:63
+g9 @ 8228-5ab374f8953946ba.min.js.br:183
+s @ 8228-5ab374f8953946ba.min.js.br:349
+requestAnimationFrame @ 8228-5ab374f8953946ba.min.js.br:186
+_Async_requestAnimationFrame @ compiled_wasm.js.br:2
+$wasm-function[1914] @ compiled_wasm.wasm.br:0x40228
+$wasm-function[2306] @ compiled_wasm.wasm.br:0x6d80d
+$wasm-function[5147] @ compiled_wasm.wasm.br:0x2a6b38
+$wasm-function[41904] @ compiled_wasm.wasm.br:0x2254368
+$wasm-function[17491] @ compiled_wasm.wasm.br:0xf3d768
+$wasm-function[39597] @ compiled_wasm.wasm.br:0x2006810
+(anonymous) @ compiled_wasm.js.br:2
+(anonymous) @ compiled_wasm.js.br:2
+_wrapCppCall @ compiled_wasm.js.br:2
+(anonymous) @ compiled_wasm.js.br:2
+b @ 918-8e978b271c116b51.min.js.br:3
+(anonymous) @ 918-8e978b271c116b51.min.js.br:3Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔑 Checking Stripe configuration...
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔥🔥🔥🔥🔥 SUBSCRIPTION MANAGER LOADED! USER: {id: '1776707840036', email: 'test6@example.com', firstName: 'q', lastName: 'w', subscriptionStatus: 'inactive', …}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🚨🚨🚨 SUBSCRIPTION MANAGER VERSION: 2024-04-20-WINDOW-OPEN-FIX 🚨🚨🚨
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🚨🚨🚨 TIMESTAMP: 2026-04-21T14:22:07.872Z 🚨🚨🚨
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔑 Response status: 200
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔑 Raw response text: {"stripeConfigured":true,"stripeKeyPrefix":"sk_test","stripeKeyLength":107,"isTestKey":true,"webhookConfigured":true,"webhookPrefix":"whsec_d9y5"}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔑 Stripe config response: {stripeConfigured: true, stripeKeyPrefix: 'sk_test', stripeKeyLength: 107, isTestKey: true, webhookConfigured: true, …}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 ✅ Stripe config check successful!
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🔥🔥🔥🔥🔥 SUBSCRIPTION MANAGER LOADED! USER: {id: '1776707840036', email: 'test6@example.com', firstName: 'q', lastName: 'w', subscriptionStatus: 'inactive', …}
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🚨🚨🚨 SUBSCRIPTION MANAGER VERSION: 2024-04-20-WINDOW-OPEN-FIX 🚨🚨🚨
+code_components_preview_iframe-f057e30e74e62cfa.min.js.br:106 🚨🚨🚨 TIMESTAMP: 2026-04-21T14:22:09.199Z 🚨🚨🚨
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
+client:1035 WebSocket connection to 'wss://app-illqgllkq2jo4djacl7ghhietpy2fux27wdiclaw5pnumbwzxlcq.makeproxy-c.figma.site/' failed: 
+ping @ client:1035
+waitForSuccessfulPing @ client:1060Understand this error
