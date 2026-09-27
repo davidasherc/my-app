@@ -27,3 +27,12 @@ echo "  pnpm install"
 echo "  pnpm build"
 echo "  npx cap sync ios"
 echo "  npx cap open ios"
+
+echo ""
+echo "Ensuring index.html has proper iOS safe-area meta tags..."
+if ! grep -q "viewport-fit=cover" index.html; then
+  sed -i '' 's|<meta name="viewport" content="width=device-width, initial-scale=1.0" />|<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />\n      <meta name="apple-mobile-web-app-capable" content="yes" />\n      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />|' index.html
+  echo "Added viewport-fit=cover and iOS status bar meta tags."
+else
+  echo "Safe-area meta tags already present."
+fi
