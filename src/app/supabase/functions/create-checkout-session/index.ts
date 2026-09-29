@@ -1,8 +1,8 @@
 // Supabase Edge Function: Create Stripe Checkout Session
 // Deploy: supabase functions deploy create-checkout-session
 
-import { serve } from "https://deno.land/std@0.168.0/http/server.ts";
-import Stripe from "https://esm.sh/stripe@14.14.0?target=deno";
+import { serve } from "https://deno.land/std/http/server.ts";
+import Stripe from "https://esm.sh/stripe?target=deno";
 
 const stripe = new Stripe(
   Deno.env.get("STRIPE_SECRET_KEY") || "",

@@ -2,8 +2,8 @@ import { Hono } from "npm:hono";
 import { cors } from "npm:hono/cors";
 import { logger } from "npm:hono/logger";
 import * as kv from "./kv_store.tsx";
-import Stripe from "npm:stripe@17.5.0";
-import { Resend } from "npm:resend@4.0.0";
+import Stripe from "npm:stripe";
+import { Resend } from "npm:resend";
 
 const app = new Hono();
 

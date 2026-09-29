@@ -80,7 +80,7 @@ export function AnalyticsDashboard({ onUpgradeClick }: AnalyticsDashboardProps) 
   };
 
   const getEmotionTrend = (emotion: string) => {
-    if (filteredEntries.length < 2) return 'stable';
+    if (filteredEntries.length < 2) return 'balanced';
     const recent = filteredEntries.slice(0, Math.ceil(filteredEntries.length / 2));
     const older = filteredEntries.slice(Math.ceil(filteredEntries.length / 2));
     
@@ -88,9 +88,9 @@ export function AnalyticsDashboard({ onUpgradeClick }: AnalyticsDashboardProps) 
     const olderAvg = older.reduce((acc, entry) => acc + (entry.emotions[emotion] || 0), 0) / older.length;
     
     const diff = recentAvg - olderAvg;
-    if (diff > 0.5) return 'improving';
-    if (diff < -0.5) return 'declining';
-    return 'stable';
+    if (diff > 0.5) return 'changing';
+    if (diff < -0.5) return 'changing';
+    return 'balanced';
   };
 
   const EmotionCard = ({ emotion, label, icon: Icon, color }: any) => {
@@ -101,14 +101,14 @@ export function AnalyticsDashboard({ onUpgradeClick }: AnalyticsDashboardProps) 
     return (
       <Card className={isLocked ? 'opacity-60' : ''} style={isLocked ? { filter: 'grayscale(100%)' } : undefined}>
         <CardHeader className="pb-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2">
+          <div className="flex flex-col items-center gap-2 text-center">
+            <div className="flex items-center justify-center gap-2">
               <Icon className={`h-4 w-4 ${isLocked ? 'text-gray-400' : color}`} />
               <span className={`text-sm font-medium ${isLocked ? 'text-gray-500' : ''}`}>{label}</span>
               {isLocked && <Lock className="h-3 w-3 text-gray-400" />}
             </div>
             {!isLocked && (
-              <Badge variant={trend === 'improving' ? 'default' : trend === 'declining' ? 'destructive' : 'secondary'}>
+              <Badge variant={trend === 'changing' ? 'default' : 'secondary'}>
                 {trend}
               </Badge>
             )}

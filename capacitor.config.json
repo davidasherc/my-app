@@ -1,0 +1,8 @@
+{
+  "appId": "com.thatone.mood2day",
+  "appName": "Mood2Day",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}

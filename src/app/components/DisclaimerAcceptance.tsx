@@ -20,11 +20,11 @@ export function DisclaimerAcceptance({ onAccept }: DisclaimerAcceptanceProps) {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-6 sm:p-10" style={{ background: 'linear-gradient(to right, #f77642, #e5485b)' }}>
+    <div className="min-h-screen flex items-center justify-center p-6 sm:p-10" style={{ background: 'linear-gradient(to right, #f77642, #e5485b)', paddingTop: 'max(env(safe-area-inset-top, 0px), 1.5rem)' }}>
       <Card className="max-w-3xl w-full shadow-lg">
         <CardHeader className="text-center space-y-4">
           <div className="flex justify-center">
-            <AuthPageLogo />
+            <AuthPageLogo textColor="#3866e1" taglineColor="#5a8fd4" />
           </div>
           <div className="flex items-center justify-center gap-2 text-red-600">
             <AlertTriangle className="h-6 w-6" />
@@ -91,7 +91,7 @@ export function DisclaimerAcceptance({ onAccept }: DisclaimerAcceptanceProps) {
             disabled={!isChecked}
             className="w-full text-white border-0"
             size="lg"
-            style={isChecked ? { background: 'linear-gradient(to right, #70ced7, #3866e1)', fontFamily: 'graphie, sans-serif' } : { fontFamily: 'graphie, sans-serif' }}
+            style={isChecked ? { background: 'linear-gradient(to right, #70ced7, #3866e1)', fontFamily: 'bc-alphapipe, graphie, sans-serif' } : { fontFamily: 'bc-alphapipe, graphie, sans-serif' }}
           >
             Continue to App
           </Button>

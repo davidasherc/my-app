@@ -30,7 +30,7 @@ export function SuccessConfirmation({ onNewEntry, therapistEmail }: SuccessConfi
         </div>
         
         <div className="space-y-2">
-          <h1 className="text-xl sm:text-2xl font-bold text-white" style={{ fontFamily: 'graphie, sans-serif' }}>Entry Sent Successfully!</h1>
+          <h1 className="text-xl sm:text-2xl font-bold text-white" style={{ fontFamily: 'bc-alphapipe, graphie, sans-serif' }}>Entry Sent Successfully!</h1>
           <p className="text-white" style={{ fontFamily: "'KoHo', sans-serif", lineHeight: 'calc(1.5em - 1px)' }}>
             Your emotional check-in for {getDate()}<br />has been shared with your therapist.
           </p>
@@ -104,7 +104,7 @@ export function SuccessConfirmation({ onNewEntry, therapistEmail }: SuccessConfi
           onClick={onNewEntry}
           className="w-full h-12 text-white border-0"
           size="lg"
-          style={{ background: 'linear-gradient(to right, #70ced7, #3866e1)', fontFamily: 'graphie, sans-serif', fontSize: '1.21rem' }}
+          style={{ background: 'linear-gradient(to right, #70ced7, #3866e1)', fontFamily: 'bc-alphapipe, graphie, sans-serif', fontSize: '1.21rem' }}
         >
           Create New Entry
         </Button>

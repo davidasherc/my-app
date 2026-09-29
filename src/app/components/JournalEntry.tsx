@@ -177,7 +177,7 @@ export function JournalEntry({ onComplete, onUpgradeClick }: JournalEntryProps) 
     <div className="max-w-2xl mx-auto space-y-4 sm:space-y-6">
       <PageHeader
         headline="Mood2Day Daily Emotional Journal"
-        subhead={<>Take a moment to check in with yourself.<br /><span style={{ position: 'relative', top: '-3px', display: 'inline-block' }}>Move the sliders to reflect how you're feeling right now</span></>}
+        subhead={<>Take a moment to check in with yourself.<br /><span style={{ position: 'relative', top: '-3px', display: 'inline-block' }}>Move the sliders to reflect how you&apos;re feeling right&nbsp;now</span></>}
       />
 
       {/* Subscription Status Banner */}

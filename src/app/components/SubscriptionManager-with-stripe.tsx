@@ -10,7 +10,7 @@ import { Alert, AlertDescription } from './ui/alert';
 import { Check, Crown, Star, Users, Zap, Mail, BarChart3, Shield, Archive, TrendingUp, ExternalLink } from 'lucide-react';
 import { useAuth } from './AuthProvider';
 import { createCheckoutSession, redirectToCheckout, getPriceId, createPortalSession } from '../utils/stripe';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 interface SubscriptionPlan {
   id: string;

@@ -1,6 +1,52 @@
+import { useState } from 'react';
+import * as Dialog from '@radix-ui/react-dialog';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
 import { Shield, Lock, Eye, FileText, Scale, Heart } from 'lucide-react';
+import { Button } from './ui/button';
+
+type LegalDoc = 'terms' | 'privacy' | 'hipaa';
+
+export function LegalModal({ doc, children }: { doc: LegalDoc; children: React.ReactNode }) {
+  const [open, setOpen] = useState(false);
+
+  const titles: Record<LegalDoc, string> = {
+    terms: 'Terms of Service',
+    privacy: 'Privacy Policy',
+    hipaa: 'HIPAA Privacy Notice',
+  };
+
+  const Content = doc === 'terms' ? TermsOfService : doc === 'privacy' ? PrivacyPolicy : HIPAANotice;
+
+  return (
+    <Dialog.Root open={open} onOpenChange={setOpen}>
+      <Dialog.Trigger asChild>
+        <button type="button" className="text-blue-600 underline">{children}</button>
+      </Dialog.Trigger>
+      <Dialog.Portal>
+        <Dialog.Overlay className="fixed inset-0 bg-black/50 z-50" />
+        <Dialog.Content className="fixed inset-0 z-50 flex flex-col bg-white" aria-describedby={undefined}>
+          <Dialog.Title className="sr-only">{titles[doc]}</Dialog.Title>
+          {/* Scrollable content */}
+          <div className="flex-1 overflow-y-auto">
+            <Content />
+          </div>
+          {/* Sticky back button */}
+          <div className="flex-shrink-0 p-4 border-t border-gray-200 bg-white">
+            <Button
+              className="w-full text-white"
+              size="lg"
+              style={{ background: 'linear-gradient(to right, #70ced7, #3866e1)', fontFamily: 'bc-alphapipe, graphie, sans-serif' }}
+              onClick={() => setOpen(false)}
+            >
+              ← Back
+            </Button>
+          </div>
+        </Dialog.Content>
+      </Dialog.Portal>
+    </Dialog.Root>
+  );
+}
 
 export function PrivacyPolicy() {
   return (

@@ -105,13 +105,13 @@ export function ReviewEntry({ emotions, onSend, onBack }: ReviewEntryProps) {
   return (
     <div className="max-w-2xl mx-auto p-6 space-y-6">
       <div className="text-center space-y-2" style={{ position: 'relative', top: '2px' }}>
-        <h1 className="text-xl sm:text-2xl font-bold text-white" style={{ fontFamily: 'graphie, sans-serif', position: 'relative', top: '2px' }}>Review Your Entry</h1>
+        <h1 className="text-xl sm:text-2xl font-bold text-white" style={{ fontFamily: 'bc-alphapipe, graphie, sans-serif', position: 'relative', top: '2px' }}>Review Your Entry</h1>
         <p className="font-semibold text-white" style={{ fontFamily: "'KoHo', sans-serif", position: 'relative', top: '-4px' }}>{getDate()}</p>
       </div>
 
       <Card style={{ fontFamily: "'KoHo', sans-serif" }}>
         <CardHeader>
-          <CardTitle className="text-lg" style={{ fontFamily: 'graphie, sans-serif' }}>Today's Emotional Check-in</CardTitle>
+          <CardTitle className="text-lg" style={{ fontFamily: 'bc-alphapipe, graphie, sans-serif' }}>Today's Emotional Check-in</CardTitle>
           <CardDescription>
             Here's a summary of how you're feeling today. This will be shared with your therapist.
           </CardDescription>
@@ -155,7 +155,7 @@ export function ReviewEntry({ emotions, onSend, onBack }: ReviewEntryProps) {
               <Heart className="h-4 w-4 text-green-600" />
             </div>
             <div className="space-y-1">
-              <p className="text-sm font-medium text-green-900" style={{ fontFamily: 'graphie, sans-serif', fontSize: '1.04rem' }}>
+              <p className="text-sm font-medium text-green-900" style={{ fontFamily: 'bc-alphapipe, graphie, sans-serif', fontSize: '1.04rem' }}>
                 Great job checking in with yourself today!
               </p>
               <p className="text-xs text-green-700" style={{ fontFamily: "'KoHo', sans-serif" }}>

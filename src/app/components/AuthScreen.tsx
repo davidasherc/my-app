@@ -10,6 +10,7 @@ import { Loader2, Shield, Lock, UserPlus, LogIn } from 'lucide-react';
 import { useAuth } from './AuthProvider';
 import { LogoComponent, AuthPageLogo } from './LogoComponent';
 import { DisclaimerFooter } from './DisclaimerFooter';
+import { LegalModal } from './LegalDocuments';
 
 export function AuthScreen() {
   const { login, register, isLoading } = useAuth();
@@ -22,6 +23,7 @@ export function AuthScreen() {
     lastName: '',
     therapistEmail: '',
     agreeToTerms: false,
+    agreeToPrivacy: false,
     agreeToHipaa: false
   });
   const [errors, setErrors] = useState<{ [key: string]: string }>({});
@@ -80,6 +82,7 @@ export function AuthScreen() {
       newErrors.therapistEmail = 'Please enter a valid therapist email address';
     }
     if (!registerForm.agreeToTerms) newErrors.terms = 'You must agree to the Terms of Service';
+    if (!registerForm.agreeToPrivacy) newErrors.privacy = 'You must agree to the Privacy Policy';
     if (!registerForm.agreeToHipaa) newErrors.hipaa = 'You must acknowledge the HIPAA Privacy Notice';
 
     if (Object.keys(newErrors).length > 0) {
@@ -101,7 +104,7 @@ export function AuthScreen() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-6 sm:p-10" style={{ background: 'linear-gradient(to right, #f77642, #e5485b)' }}>
+    <div className="min-h-screen flex items-center justify-center p-6 sm:p-10" style={{ background: 'linear-gradient(to right, #f77642, #e5485b)', paddingTop: 'max(env(safe-area-inset-top, 0px), 1.5rem)' }}>
       <div className="w-full max-w-md space-y-6">
         {/* Main Logo/Brand Header */}
         <div className="text-center space-y-4" style={{ position: 'relative', top: '4px' }}>
@@ -199,9 +202,6 @@ export function AuthScreen() {
                     )}
                   </Button>
 
-                  <div className="text-center text-sm text-gray-600">
-                    Demo: Use email "demo@example.com" and password "demo123"
-                  </div>
                 </form>
               </CardContent>
             </Card>
@@ -297,33 +297,50 @@ export function AuthScreen() {
                   </div>
 
                   <div className="space-y-3">
-                    <div className="flex items-start space-x-2">
+                    {/* Terms of Service */}
+                    <div className="flex items-center space-x-2">
                       <Checkbox
                         id="terms"
                         checked={registerForm.agreeToTerms}
-                        onCheckedChange={(checked) => 
+                        onCheckedChange={(checked) =>
                           setRegisterForm({ ...registerForm, agreeToTerms: checked as boolean })
                         }
                       />
-                      <Label htmlFor="terms" className="text-xs leading-normal">
-                        I agree to the <button type="button" className="text-blue-600 underline">Terms of Service</button> and <button type="button" className="text-blue-600 underline">Privacy Policy</button>
+                      <Label htmlFor="terms" className="text-xs leading-none whitespace-nowrap">
+                        I agree to the <LegalModal doc="terms">Terms of Service</LegalModal>
                       </Label>
                     </div>
                     {errors.terms && <p className="text-xs text-red-600 ml-6">{errors.terms}</p>}
 
+                    {/* Privacy Policy */}
+                    <div className="flex items-center space-x-2">
+                      <Checkbox
+                        id="privacy"
+                        checked={registerForm.agreeToPrivacy}
+                        onCheckedChange={(checked) =>
+                          setRegisterForm({ ...registerForm, agreeToPrivacy: checked as boolean })
+                        }
+                      />
+                      <Label htmlFor="privacy" className="text-xs leading-none whitespace-nowrap">
+                        I agree to the <LegalModal doc="privacy">Privacy Policy</LegalModal>
+                      </Label>
+                    </div>
+                    {errors.privacy && <p className="text-xs text-red-600 ml-6">{errors.privacy}</p>}
+
+                    {/* HIPAA */}
                     <div className="flex items-start space-x-2">
                       <Checkbox
                         id="hipaa"
                         checked={registerForm.agreeToHipaa}
-                        onCheckedChange={(checked) => 
+                        onCheckedChange={(checked) =>
                           setRegisterForm({ ...registerForm, agreeToHipaa: checked as boolean })
                         }
+                        className="mt-0.5 flex-shrink-0"
                       />
-                      <Label htmlFor="hipaa" className="text-xs leading-normal">
-                        <div className="flex items-center gap-1">
-                          <Lock className="h-3 w-3" />
-                          I acknowledge the <button type="button" className="text-blue-600 underline">HIPAA Privacy Notice</button>
-                        </div>
+                      <Label htmlFor="hipaa" className="text-xs leading-snug">
+                        I acknowledge the{' '}
+                        <br />
+                        <LegalModal doc="hipaa">HIPAA Privacy Notice</LegalModal>
                       </Label>
                     </div>
                     {errors.hipaa && <p className="text-xs text-red-600 ml-6">{errors.hipaa}</p>}

@@ -10,7 +10,9 @@ interface LogoComponentProps {
   className?: string;
   onClick?: () => void;
   animate?: boolean;
-  variant?: 'header' | 'feature' | 'icon' | 'auto'; // NEW: Choose which logo variant to use
+  variant?: 'header' | 'feature' | 'icon' | 'auto';
+  textColor?: string;
+  taglineColor?: string;
   customSize?: {
     icon?: string;
     text?: string;
@@ -27,7 +29,9 @@ export function LogoComponent({
   className = '',
   onClick,
   animate = false,
-  variant = 'auto', // NEW: Default to auto-detect
+  variant = 'auto',
+  textColor = '#ffffff',
+  taglineColor,
   customSize
 }: LogoComponentProps) {
   const { config } = useBranding();
@@ -170,7 +174,7 @@ export function LogoComponent({
               'font-semibold leading-tight',
               sizes.text
             )}
-            style={{ color: '#ffffff', fontFamily: 'graphie, sans-serif' }}
+            style={{ color: textColor, fontFamily: 'bc-alphapipe, graphie, sans-serif' }}
           >
             {config.appName}
           </div>
@@ -181,7 +185,7 @@ export function LogoComponent({
               'font-medium leading-tight mt-0.5',
               sizes.tagline
             )}
-            style={{ fontFamily: "'KoHo', sans-serif", position: 'relative', top: '-4px', color: '#ffffff' }}
+            style={{ fontFamily: "'KoHo', sans-serif", position: 'relative', top: '-4px', color: taglineColor ?? textColor, lineHeight: '1.1' }}
           >
             {config.tagline}
           </div>
@@ -255,7 +259,7 @@ export function SidebarLogo({ collapsed = false }: { collapsed?: boolean }) {
   );
 }
 
-export function AuthPageLogo() {
+export function AuthPageLogo({ textColor, taglineColor }: { textColor?: string; taglineColor?: string }) {
   return (
     <LogoComponent
       size="custom"
@@ -263,6 +267,8 @@ export function AuthPageLogo() {
       showTagline={true}
       layout="vertical"
       className="mb-6"
+      textColor={textColor}
+      taglineColor={taglineColor}
       customSize={{
         icon: 'h-[70px] w-[70px]',
         container: 'h-[70px]',

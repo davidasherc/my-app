@@ -11,7 +11,7 @@ import { UpgradePrompt } from './components/UpgradePrompt';
 import { AnalyticsDashboard } from './components/AnalyticsDashboard';
 import { BrandingCustomizer } from './components/BrandingCustomizer';
 import { History } from './components/History';
-import { Clock, Heart, Calendar, BarChart3, User, Palette, LogOut, Crown } from 'lucide-react';
+import { Clock, Home, Calendar, BarChart3, User, Palette, LogOut, Crown } from 'lucide-react';
 import { DisclaimerAcceptance } from './components/DisclaimerAcceptance';
 import { SubscriptionManager } from './components/SubscriptionManager';
 import { JournalEntry } from './components/JournalEntry';
@@ -29,7 +29,7 @@ import { Input } from './components/ui/input';
 import { Label } from './components/ui/label';
 import { secureStorage } from './services/SecureStorage';
 import { Toaster } from './components/ui/sonner';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 import { PageHeader } from './components/PageHeader';
 
 // 🔥 CACHE BUSTER - VERSION 2024-03-25-V5 🔥
@@ -85,6 +85,13 @@ function AppContent() {
   const { user, isAuthenticated, logout, updateProfile, isLoading } = useAuth();
 
   useEffect(() => {
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = `https://use.typekit.net/lnr0zcv.css?_=${Date.now()}`;
+    document.head.appendChild(link);
+  }, []);
+
+  useEffect(() => {
     const img = new Image();
     img.src = mood2dayIcon;
     img.onload = () => {
@@ -119,7 +126,7 @@ function AppContent() {
   const [emotionData, setEmotionData] = useState<EmotionData | null>(null);
   const [recentEntries, setRecentEntries] = useState<any[]>([]);
   const [totalEntries, setTotalEntries] = useState(0);
-  const [hasAcceptedDisclaimer, setHasAcceptedDisclaimer] = useState(() => localStorage.getItem('disclaimerAccepted') === 'true');
+  const [hasAcceptedDisclaimer, setHasAcceptedDisclaimer] = useState(false);
   const [lastSentTherapistEmail, setLastSentTherapistEmail] = useState<string>('');
   const [isVerifyingSession, setIsVerifyingSession] = useState(false);
   const stripeSyncAttempted = React.useRef(false);
@@ -139,6 +146,15 @@ function AppContent() {
     if (user) {
       console.log('🔵 Loading recent entries for user:', user.email);
       loadRecentEntries();
+    }
+  }, [user?.id]);
+
+  // Check disclaimer acceptance per user
+  useEffect(() => {
+    if (user?.id) {
+      setHasAcceptedDisclaimer(localStorage.getItem(`disclaimerAccepted_${user.id}`) === 'true');
+    } else {
+      setHasAcceptedDisclaimer(false);
     }
   }, [user?.id]);
 
@@ -246,7 +262,7 @@ function AppContent() {
   };
 
   const handleDisclaimerAccept = () => {
-    localStorage.setItem('disclaimerAccepted', 'true');
+    if (user?.id) localStorage.setItem(`disclaimerAccepted_${user.id}`, 'true');
     setHasAcceptedDisclaimer(true);
   };
 
@@ -366,7 +382,7 @@ function AppContent() {
           <div className="px-4 pt-3 pb-[20px] max-w-7xl mx-auto flex items-center justify-between">
             {/* Left side — wordmark only */}
             <div className="flex flex-col leading-tight cursor-pointer" style={{ position: 'relative', top: '15px' }} onClick={() => { setCurrentScreen('journal'); setJournalStep('entry'); setEmotionData(null); }}>
-              <span className="font-bold tracking-wide text-white" style={{ fontFamily: 'graphie, sans-serif', fontSize: '1.14rem' }}>Mood2Day</span>
+              <span className="font-bold tracking-wide text-white" style={{ fontFamily: 'bc-alphapipe, graphie, sans-serif', fontSize: '1.14rem' }}>Mood2Day</span>
               <span className="font-bold text-blue-100 opacity-80 tracking-wider" style={{ fontFamily: "'KoHo', sans-serif", fontSize: '0.71rem', position: 'relative', top: '-3px' }}>Daily Emotional Journal</span>
             </div>
 
@@ -392,7 +408,10 @@ function AppContent() {
 
               {/* User Menu */}
               <div className="flex items-center gap-2">
-                <Avatar className="h-8 w-8 border border-white/40">
+                <Avatar
+                  className="h-8 w-8 border border-white/40 cursor-pointer hover:opacity-80 transition-opacity"
+                  onClick={() => { setCurrentScreen('profile'); setCurrentTab('profile'); }}
+                >
                   <AvatarFallback style={{ backgroundColor: 'rgba(255,255,255,0.2)', color: '#fff' }}>
                     {getInitials(user?.firstName || 'U', user?.lastName || 'U')}
                   </AvatarFallback>
@@ -447,7 +466,7 @@ function AppContent() {
             {/* Navigation */}
             <TabsList className="grid w-full grid-cols-4 lg:grid-cols-5 max-w-2xl mx-auto mb-6" style={{ fontFamily: 'graphie, sans-serif' }}>
               <TabsTrigger value="journal" className="flex items-center gap-1">
-                <Heart className="h-4 w-4" style={{ color: '#1aa3d9' }} />
+                <Home className="h-4 w-4" style={{ color: '#1aa3d9' }} />
                 {/* 🎯 EDIT THIS: Navigation labels */}
                 <span className="hidden sm:inline">Journal</span>
               </TabsTrigger>
@@ -638,11 +657,21 @@ function AppContent() {
                     </div>
 
                     <div className="border-t pt-4">
-                      {/* 🎯 EDIT THIS: Account creation label */}
                       <h4 className="font-medium mb-2">Member Since</h4>
                       <p className="text-sm text-muted-foreground">
                         {new Date(user?.createdAt || '').toLocaleDateString()}
                       </p>
+                    </div>
+
+                    <div className="border-t pt-4">
+                      <Button
+                        variant="ghost"
+                        className="w-full text-red-600 hover:bg-red-50 hover:text-red-700 flex items-center justify-center gap-2"
+                        onClick={handleLogout}
+                      >
+                        <LogOut className="h-4 w-4" />
+                        Sign Out
+                      </Button>
                     </div>
                   </CardContent>
                 </Card>
